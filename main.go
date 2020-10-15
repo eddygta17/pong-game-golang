@@ -19,8 +19,8 @@ const (
 
 const (
 	enterKey      = 257
-	leftArrowKey  = 263
-	rightArrowKey = 262
+	leftArrowKey  = 65
+	rightArrowKey = 68
 )
 
 const (
@@ -31,7 +31,7 @@ const (
 	hitBarSpeed  = 14
 	hitBarLength = 100
 	hitBarHeight = 25
-	gameName     = "Nithins's Pong Game!"
+	gameName     = "2D Pong Game!"
 )
 
 type pongBall struct {
